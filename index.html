@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CloudX Solutions — AWS Cloud Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="CloudX Solutions — AWS EC2, S3, Migration, DevOps. Scalable, secure, and cost-efficient cloud services.">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="CloudX home">
+        <!-- inline fallback for logo -->
+        <img src="assets/logo.svg" alt="CloudX logo" class="logo" />
+        <span class="brand-name">CloudX</span>
+      </a>
+
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Cloud solutions powered by AWS</h1>
+        <p>Reliable, scalable, and secure cloud infrastructure — designed and managed by CloudX experts.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="services.html">Explore Services</a>
+          <a class="btn outline" href="contact.html">Get a Quote</a>
+        </div>
+        <p class="hero-note">Trusted for migrations, architecture, and 24/7 support.</p>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <!-- decorative illustration from icons.svg (cloud illustration) -->
+        <img src="assets/hero.jpg" alt="" class="hero-img"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick features -->
+  <section class="section small-features fade-in">
+    <div class="container">
+      <div class="grid cols-3">
+        <div class="feature-card">
+          <img src="assets/icons.svg#icon-aws" class="icon" alt="" />
+          <h3>AWS Expertise</h3>
+          <p>Official best practices for EC2, S3, RDS, Lambda and VPCs.</p>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/icons.svg#icon-lock" class="icon" alt="" />
+          <h3>Secure by Design</h3>
+          <p>IAM, encryption, logging and continuous monitoring.</p>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/icons.svg#icon-automation" class="icon" alt="" />
+          <h3>Automated Deployments</h3>
+          <p>CI/CD, IaC with Terraform/CloudFormation, autoscaling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services preview -->
+  <section id="services-preview" class="section fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>From initial assessment to 24/7 managed cloud operations.</p>
+      </div>
+
+      <div class="grid cols-4 service-grid">
+        <a class="service-card" href="services.html#ec2">
+          <img src="assets/icons.svg#icon-server" class="icon" alt="" />
+          <h3>AWS EC2</h3>
+          <p>Optimized compute architecture and cost-management.</p>
+        </a>
+
+        <a class="service-card" href="services.html#s3">
+          <img src="assets/icons.svg#icon-s3" class="icon" alt="" />
+          <h3>AWS S3</h3>
+          <p>Durable storage with lifecycle policies and security.</p>
+        </a>
+
+        <a class="service-card" href="services.html#migration">
+          <img src="assets/icons.svg#icon-migrate" class="icon" alt="" />
+          <h3>Migration</h3>
+          <p>Zero-downtime lift-and-shift or re-architecting to cloud-native.</p>
+        </a>
+
+        <a class="service-card" href="services.html#devops">
+          <img src="assets/icons.svg#icon-devops" class="icon" alt="" />
+          <h3>DevOps</h3>
+          <p>CI/CD pipelines, monitoring, IaC and runbooks for reliability.</p>
+        </a>
+      </div>
+
+      <div class="center">
+        <a class="btn" href="services.html">See full service details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials fade-in">
+    <div class="container">
+      <h2>What our clients say</h2>
+      <div class="grid cols-3">
+        <blockquote class="testimonial">
+          <p>CloudX migrated our platform with zero downtime and saved 30% costs.</p>
+          <cite>— Jane Doe, CTO @ FinServ</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>The team set up CI/CD pipelines and monitoring in days, not months.</p>
+          <cite>— Amir Khan, Head of Engineering</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>Reliable 24/7 support and fast response times — highly recommended.</p>
+          <cite>— L. Smith, CEO</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq fade-in">
+    <div class="container">
+      <h2>FAQ</h2>
+
+      <div class="accordion">
+        <button class="accordion-toggle">How long does migration take?</button>
+        <div class="accordion-panel">Timelines depend on size and complexity; typical migration takes 2–8 weeks.</div>
+
+        <button class="accordion-toggle">Do you provide 24/7 support?</button>
+        <div class="accordion-panel">Yes — enterprise packages include 24/7 monitoring and on-call support.</div>
+
+        <button class="accordion-toggle">Can you optimize my current AWS bill?</button>
+        <div class="accordion-panel">Yes — we perform cost analysis, rightsizing, and reserved instance recommendations.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container center">
+      <h2>Ready to migrate or optimize?</h2>
+      <p>Contact us for a free assessment and tailored plan.</p>
+      <a class="btn primary" href="contact.html">Request a free assessment</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="assets/logo.svg" alt="CloudX" class="logo-sm" />
+          <p>CloudX Solutions — AWS Cloud Experts</p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <nav class="footer-nav">
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>support@cloudx.com</p>
+          <p>+1 234 567 890</p>
+        </div>
+      </div>
+      <p class="muted">© 2025 CloudX Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
